@@ -39,6 +39,57 @@
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   },
+  "standard-version": {
+    "skip": {
+      "tag": true
+    },
+    "types": [
+      {
+        "type": "feat",
+        "section": "New Feature"
+      },
+      {
+        "type": "fix",
+        "section": "Bug Fixes"
+      },
+      {
+        "type": "doc",
+        "section": "Documentation"
+      },
+      {
+        "type": "style",
+        "section": "Style Changes"
+      },
+      {
+        "type": "refactor",
+        "section": "Refactor"
+      },
+      {
+        "type": "perf",
+        "section": "Performance"
+      },
+      {
+        "type": "test",
+        "section": "Tests"
+      },
+      {
+        "type": "build",
+        "section": "Build System"
+      },
+      {
+        "type": "ci",
+        "section": "CI/CD Configurations"
+      },
+      {
+        "type": "chore",
+        "section": "Maintenance"
+      },
+      {
+        "type": "revert",
+        "section": "Revert"
+      }
+    ]
+  },
   "engines": {
     "node": ">20.0.0"
   },
